@@ -38,11 +38,6 @@ php artisan vendor:publish --provider="Backpack\Vercel\ServiceProvider" --tag="t
 php artisan vendor:publish --provider="Backpack\Vercel\ServiceProvider" --tag="views"
 ```
 
-#### Migrations File
-```bash
-php artisan vendor:publish --provider="Backpack\Vercel\ServiceProvider" --tag="migrations"
-```
-
 #### Routes File
 ```bash
 php artisan vendor:publish --provider="Backpack\Vercel\ServiceProvider" --tag="routes"
@@ -59,11 +54,6 @@ php artisan vendor:publish --provider="Backpack\Vercel\ServiceProvider" --tag="s
 ```
 
 ## Usage
-
-### Seeders
-```bash
-php artisan db:seed --class="Backpack\Vercel\database\seeders\VercelSeeder"
-```
 
 ## Security
 
